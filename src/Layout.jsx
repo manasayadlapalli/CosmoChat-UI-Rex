@@ -1,10 +1,43 @@
-const jsonServer = require("json-server");
-const server = jsonServer.create();
-const router = jsonServer.router("data/db.json");
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3500;  // <== You can change the port
+import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import { useLocation } from "react-router-dom";
 
-server.use(middlewares);
-server.use(router);
+const Layout = () => {
+  const [isChat, setIsChat] = useState(false);
+  const [isEndedChats, setIsEndedChats] = useState(false);
+  const [isActvity, setIsActivity] = useState(false);
 
-server.listen(port);
+  const location = useLocation();
+  useEffect(() => {
+    if (location.pathname == "/") {
+      setIsChat(false);
+      setIsEndedChats(false);
+      setIsActivity(false);
+    } else if (location.pathname == "/endedChats") {
+      setIsChat(false);
+      setIsEndedChats(true);
+      setIsActivity(false);
+    } else if (location.pathname == "/activity") {
+      setIsChat(false);
+      setIsEndedChats(false);
+      setIsActivity(true);
+    } else {
+      setIsChat(true);
+      setIsEndedChats(false);
+      setIsActivity(false);
+    }
+  }, [location]);
+  return (
+    <>
+      <Navigation
+        isChat={isChat}
+        isEndedChats={isEndedChats}
+        isActvity={isActvity}
+      />
+      <Outlet />
+    </>
+  );
+};
+
+export default Layout;

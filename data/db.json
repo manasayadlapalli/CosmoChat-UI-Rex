@@ -1,0 +1,118 @@
+{
+  "sessions": [
+    {
+      "id": "1",
+      "date": "June 6, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        },
+        {
+          "user": "Hi there, I would like some advice on switching my career from Animation to Software development.",
+          "ReX": ""
+        },
+        {
+          "user": "Hi there, I would like some advice on switching my career from Animation to Software development.",
+          "ReX": "Hi Andrew, I suggest focusing on tasks that showcase your skills and align with your career goals. Network with professionals in your field, attend workshops or courses to enhance your knowledge, and consider seeking a mentor for guidance. Keep track of your accomplishments and update your resume and online profiles regularly. Stay proactive and open to new opportunities that can help you advance in your career. Remember, consistency and dedication are key to career growth. Good luck!"
+        }
+      ],
+      "isSessionEnded": true
+    },
+    {
+      "id": "2",
+      "date": "June 6, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        }
+      ],
+      "isSessionEnded": true
+    },
+    {
+      "id": "3",
+      "date": "June 6, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        }
+      ],
+      "isSessionEnded": true
+    },
+    {
+      "id": "4",
+      "date": "Jun 6, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        },
+        {
+          "user": "",
+          "ReX": ""
+        }
+      ],
+      "isSessionEnded": true
+    },
+    {
+      "id": "5",
+      "date": "Jun 6, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        },
+        {
+          "user": "Hello",
+          "ReX": ""
+        },
+        {
+          "user": "Hi there, I would like some advice on switching my career from Animation to Software development.",
+          "ReX": ""
+        },
+        {
+          "user": "Hi there, I would like some advice on switching my career from Hardware to Software development.",
+          "ReX": ""
+        },
+        {
+          "user": "",
+          "ReX": ""
+        }
+      ],
+      "isSessionEnded": true
+    },
+    {
+      "id": "6",
+      "date": "Jun 7, 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello Andrew, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        },
+        {
+          "user": "Hello",
+          "ReX": ""
+        },
+        {
+          "user": "Hi there, I would like some advice on switching my career from Animation to Software development.",
+          "ReX": ""
+        }
+      ],
+      "isSessionEnded": false
+    }
+  ]
+}
